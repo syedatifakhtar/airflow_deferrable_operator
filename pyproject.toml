@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dags"
+version = "0.1.0"
+description = ""
+authors = ["atif <syedatifakhtar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9"
+apache-airflow = "2.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
